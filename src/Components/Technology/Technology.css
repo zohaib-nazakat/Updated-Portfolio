@@ -1,0 +1,81 @@
+#tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    background:rgb(20, 20, 20);
+    /* height: 90vh; */
+    padding: 2rem;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.toolTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 3px solid yellow;
+    color: yellow;
+}
+
+.toolText{
+    text-align: center;   
+    margin-top: 2rem; 
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Poppins",sans-serif;
+}
+
+.toolDiv{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+
+}
+
+.toolChild{
+    background-color: #1c1c1c5c;
+    width: 100vw;
+    max-width: 10rem;
+    height: 10rem;
+    text-align: center;
+    box-shadow: 0px 0px 6px 0px gray;
+    padding: 1rem;
+    border-radius: 5rem;
+
+}
+
+.toolChild img{
+    object-fit: cover;
+    height: 6rem;
+}
+.js{
+    margin: 0px -15px;
+}
+.tailwind{
+    height: 5rem !important;
+}
+.sql{
+    height: 4rem !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    font-size: 4rem;
+    width: 4rem;
+}
+.toolChild>h3{
+    padding-top: 10px;
+}
+.toolChild>img{
+    padding-top: 10px;
+}
+
+.db{
+    height: 100px;
+}
+.nodejs{
+    height: 5rem;
+}

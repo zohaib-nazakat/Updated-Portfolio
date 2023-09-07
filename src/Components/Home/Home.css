@@ -73,3 +73,34 @@
 .introContent{
     padding: 8rem 0rem 0rem 7rem;
 }
+
+@media screen and (max-width:500px){
+    .introPara{
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+    }
+    .introText{
+        font-size: 1rem;
+    }
+    .introContent{
+        padding: 18rem 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg{
+        width: 20rem;
+        top: 0%;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (max-width:900px){
+    .bg{
+        left: 10%;
+        opacity: 0.3;
+    }
+
+}

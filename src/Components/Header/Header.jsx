@@ -13,7 +13,7 @@ const Header = () => {
         <Link className="desktopMenuItem" to='/' target='_blank'>Home</Link>
         <Link className="desktopMenuItem" to='#'>Clients</Link>
         <Link className="desktopMenuItem" to='#'>About</Link>
-        <Link className="desktopMenuItem" to='#'>Portfolio</Link>
+        <Link className="desktopMenuItem" to='#'>Tools</Link>
       </div>
 
       <button className="deskTopMenuBtn">
