@@ -1,0 +1,89 @@
+.aboutHeading{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.aboutHeading{
+    margin-top: 2rem;
+}
+
+.aboutmeContent:hover{
+    /* background: rgb(41, 41, 41); */
+    cursor: pointer;
+
+}
+
+.aboutmeContent{
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 14rem;
+    background: rgb(20, 20, 20);
+    /* background: rgb(70, 70, 70); */
+    color: white;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+
+}
+.aboutTitle{
+    margin-bottom: 1rem;
+    color: yellow;
+    
+}
+.aboutText{
+    padding: 3rem 2rem;
+}
+.aboutName{
+    color: yellow;
+    font-weight: 400;
+}
+.aboutHighlight{
+    color: yellow;
+}
+.aboutTextPara{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+
+.aboutImg{
+    height: 20rem;
+    padding: 2rem 0;
+    /* filter: drop-shadow(0 0 0.75rem rgb(242, 255, 0)); */
+    filter: drop-shadow(0px 0px 4px rgb(242, 255, 0));
+}
+
+.aboutBtn{
+    background: white;
+    border: none;
+    font-size: small;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.aboutBtn:hover{
+    filter: drop-shadow(3px 2px 5px rgb(242, 255, 0));
+}
+.aboutBtnIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHeading{
+    margin-top: 2rem;
+}
+.aboutHeading{
+    color: yellow;
+}

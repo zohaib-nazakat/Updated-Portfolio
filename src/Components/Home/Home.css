@@ -1,0 +1,75 @@
+#intro{
+    display: flex;
+}
+.socialMediaIcons{
+    font-size: 2rem;
+}
+
+
+.mediaIcons{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.mediaIcons:hover{
+
+    color: black;
+    background-color: white;
+    border-radius: 50rem;
+    padding: 0px 5px;
+    cursor: pointer;
+    filter: drop-shadow(3px 2px 5px rgb(242, 255, 0));
+}
+
+.bg{
+    height: 100vh;
+    max-height: 87vh; 
+    position: absolute;
+    top: -4;
+    left: 60%;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-weight: 700;
+}
+.hi{
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+.introText{
+    font-size: 3rem;
+}
+.introPara{
+    font-size: large;
+    font-weight: 100;
+}
+.name{
+    color: yellow;
+}
+
+.introBtn{
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem 1rem;
+    border-radius: 2rem;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.introBtn:hover{
+    filter: drop-shadow(3px 2px 5px rgb(242, 255, 0));
+}
+.introContent{
+    padding: 8rem 0rem 0rem 7rem;
+}

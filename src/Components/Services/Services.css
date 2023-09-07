@@ -1,0 +1,49 @@
+.cards{
+    width: 25%;
+}
+.services_page{
+    background-color: #FBFBFD;
+    margin: 20px;
+}
+
+.services_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.services_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.cards{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.cards:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px gainsboro;
+
+}
+.logos{
+    height: 50px;
+    width:50px;
+}
+.servieces_btn{
+    background-color: #3E52FF;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.servieces_btn:hover{
+    background-color: #3E52FF;
+    color: white;
+    padding: 6px 25px;
+    border-radius: 20px;
+}
