@@ -5,11 +5,11 @@ import { ContactMail } from '@mui/icons-material'
 const Contact = () => {
   return (
         <>
-            <section id="contactForm">
+            <section id="contactform" >
 
                 <form action="#" className="contact-Form">
 
-                <div className="contactTitle">Contact Me</div>
+                <div className="contactTitle" >Contact Me</div>
                 <div className="contectText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur.</div>
 
 

@@ -59,6 +59,27 @@
 }
 .footerBottom ul li{
     margin: 0 0.5rem;
-    
+}
 
+@media screen and (max-width:400px){
+    #footer{
+        height: 100%;
+    }
+    .footerTitle{
+        font-size: 1rem;
+    }
+    .footerText{
+        font-size: 0.5rem;
+    }
+    .fIcons{
+        margin-right: 0.5rem;
+    }
+    .footerBottom>h3{
+        display: none;
+    }
+    .footerBottom ul li{
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+    
 }

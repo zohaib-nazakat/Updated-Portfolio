@@ -81,7 +81,7 @@
 }
 
 
-
+/* 
 @media screen and (max-width:450px){
     #tools{
       margin: 0 1rem;
@@ -109,5 +109,39 @@
     }
     .tailwind {
         height: 4rem !important;
+    }
+  } */
+
+
+  @media screen and (max-width:400px){
+    .toolTitle{
+        font-size: 1rem;
+    }
+    .toolText{
+        font-size: 0.5rem;
+    }
+    .toolChild>h3{
+        font-size: 0.7rem;
+    }
+    .toolChild>img{
+        height: 3rem;
+        padding: 0;
+    }
+    .toolChild{
+        height: 7rem;
+        width: 5rem;
+        border-radius: 1rem;
+    }
+    .tailwind{
+        height: 2rem !important;
+        margin-top: 8px;
+    }
+    .sql{
+        height: 2rem !important;
+        margin-top: 8px;
+    }
+    .nodejs{
+        height: 2rem !important;
+        margin-top: 10px;
     }
   }

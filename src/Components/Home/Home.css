@@ -21,22 +21,30 @@
 }
 
 .bg{
-    height: 100vh;
-    max-height: 87vh; 
+    height: 83vh;
+    /* max-height: 87vh;  */
     position: absolute;
     top: -4;
     left: 60%;
-    bottom: 0;
+    bottom: 2.6rem;
     z-index: -1;
 }
 
 
 
 .introContent{
-    height: 100vh;
+    /* height: 100vh;
     width: 100vw;
     padding: 2rem;
     font-weight: 700;
+    margin-top: 10rem;
+    margin-left: 8rem; */
+    height: 81vh;
+    width: 100vw;
+    padding: 2rem;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-left: 8rem;
 }
 .hi{
     font-size: 1.5rem;
@@ -49,6 +57,7 @@
 .introPara{
     font-size: large;
     font-weight: 100;
+    max-width: 26rem;
 }
 .name{
     color: yellow;
@@ -70,10 +79,10 @@
 .introBtn:hover{
     filter: drop-shadow(3px 2px 5px rgb(242, 255, 0));
 }
-.introContent{
+/* .introContent{
     padding: 8rem 0rem 0rem 7rem;
-}
-
+} */
+/* 
 @media screen and (max-width:500px){
     .bg{
         left: 17%;
@@ -111,22 +120,6 @@
 }
 
 
-/* @media (min-width:500px) and (max-width:580px){
-        .bg{
-            left: 12%;
-        }
-        .introPara{
-            font-size: 0.9rem;
-            flex-wrap: wrap;
-        }
-        .introText{
-            font-size: 2rem;
-        }
-        .introContent{
-            margin-top: 3rem;
-        }
-} */
-
 
 
 @media (min-width:500px) and (max-width:900px){
@@ -152,7 +145,7 @@
 
 }
 
-@media screen and (max-width:500px){
+/* @media screen and (max-width:500px){
     .bg{
         left:1%;
         max-width: 32rem;
@@ -166,29 +159,33 @@
     .bg{
         left:25%;
     }
+} */
+
+
+@media screen and (max-width: 600px){
+    #intro{
+        width: 20rem;
+        display: flex;
+    }
+
+.introText{
+    font-size: 2rem;
+    font-weight: 300;
 }
-
-
-@media screen and (max-width: 450px){
-.introContent {
-    padding: 3rem 2rem;
+.introPara{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.introContent{
+    margin-left: 3px;
+    margin-top: 2rem;
+    height: 90vh;
 }
 .bg{
-    width: 28rem;
-    margin: 0 2rem;
+    width: 320px;
+    height: 35rem;
+    left: 1%;
+    opacity: 0.3;
+    bottom: 0.5rem;
 }
-}
-
-@media screen and (max-width: 232px){
-    .introContent {
-        margin-top: 100px;
-        font-size: 2rem;
-        margin-left: 8px;
-        padding: 1rem 0rem;
-    }
-    .bg {
-        width: 23rem;
-        margin: 0px 0rem;
-    }
-   
-}
+} 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
-import { ContactMail, Facebook, MailOutline } from '@mui/icons-material';
+import { Close, ContactMail, DensityMedium, Facebook, MailOutline } from '@mui/icons-material';
 
 
 const Header = () => {
@@ -10,15 +10,19 @@ const Header = () => {
       <h3 className='logo'>PortFolio</h3>
 
       <div className="desktopMenu">
-        <Link className="desktopMenuItem" to='/' target='_blank'>Home</Link>
-        <Link className="desktopMenuItem" to='#'>Clients</Link>
-        <Link className="desktopMenuItem" to='#'>About</Link>
-        <Link className="desktopMenuItem" to='#'>Tools</Link>
+        <Link  to='intro' spy={true} smooth={true} offset={-100}  className="desktopMenuItem" target='_blank'>Home</Link>
+        <Link  to='skills' spy={true} smooth={true} offset={-50} className="desktopMenuItem" >Skills</Link>
+        <Link  to='aboutMe' spy={true} smooth={true} offset={-100} className="desktopMenuItem" >About Me</Link>
+        <Link  to='tools' spy={true} smooth={true} offset={-50} className="desktopMenuItem" >Tools</Link>
       </div>
 
-      <button className="deskTopMenuBtn">
+      <button className="deskTopMenuBtn"  onClick={()=>{
+        document.getElementById('contactform').scrollIntoView({behavior:'smooth'});
+      }} offset={-100}>
         <MailOutline/> Contact me
       </button>
+
+      <span className='navBtn'> <DensityMedium/></span>
 
     </nav>
   )

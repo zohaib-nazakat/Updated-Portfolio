@@ -17,7 +17,7 @@ const Home = () => {
             </span>
           
           <p className="introPara">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
             odit, reprehenderit debitis nostrum sint consequatur.
           </p>
 

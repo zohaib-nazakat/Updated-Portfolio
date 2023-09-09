@@ -30,10 +30,13 @@ input,textarea{
     font-weight: 200;
     margin: 1rem;
 }
+.contact-Form{
+    margin-top: 3rem;
+}
 .contactBtn{
     width: 100vw;
     max-width: 10rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     background-color: white;
     color: black;
     padding: 0.5rem;
@@ -55,7 +58,17 @@ input,textarea{
     padding-left: 3px;
 }
 
-/* .contactBtn{
-    display: flex;
-    margin: 0 auto;
-} */
+@media screen and (max-width:400px){
+    .contactTitle{
+        font-size: 2rem;
+        color: yellow;
+    }
+    .contectText{
+        font-size: 0.7rem;
+        margin: 0;
+    }
+    .contact-Form{
+        margin: 0;
+        padding: 0px 5px;
+    }
+}
