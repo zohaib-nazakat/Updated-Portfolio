@@ -43,3 +43,22 @@
     padding: 9px 8px 0px 8px;
     border: 1px solid black;
 }
+
+.footerBottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.footerBottom ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+
+}
+.footerBottom ul li{
+    margin: 0 0.5rem;
+    
+
+}

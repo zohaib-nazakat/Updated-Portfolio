@@ -21,6 +21,14 @@ const Footer = () => {
                 <hr />
                 <div className="footerBottom">
                     <h3><Copyright/> | Front-End Developer</h3>
+
+
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Portfolio</li>
+                    </ul>
                 </div>
                 
             </section>
