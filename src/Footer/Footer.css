@@ -1,0 +1,45 @@
+#footer{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 0 auto; */
+    width: 100vw;
+    background:rgb(40, 40, 40);
+    height: 12rem;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 0 3rem;
+}
+
+.footerTitle{
+    font-size: 2rem;
+    padding-top: 1rem;
+    font-weight: 400;
+}
+
+.footerText{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.footerIons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footerIons:nth-child(n){
+    margin: 0 1rem;
+}
+
+
+
+.fIcons{
+    margin: 1rem 1.5rem;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border-radius: 3rem;
+    padding: 9px 8px 0px 8px;
+    border: 1px solid black;
+}
