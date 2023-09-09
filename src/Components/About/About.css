@@ -183,3 +183,17 @@ body{
     }
 
 }
+
+
+@media screen and (max-width:450px){
+    #aboutMe{
+      margin: 0 1rem;
+  
+    }
+  }
+@media screen and (max-width:120px){
+    #aboutMe{
+      margin: 0 1rem;
+  
+    }
+  }

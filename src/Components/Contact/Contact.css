@@ -1,0 +1,61 @@
+.contact-Form{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(40, 40 , 40 );
+    padding: 0 8rem;
+}
+#contactForm{
+    margin-top: 2rem;
+}
+input,textarea{
+    background: none;
+    margin: 1rem 0;
+    border: none;
+    outline: 1px solid yellow;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    color: white;
+}
+.contactTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+.contectText{
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 1rem;
+}
+.contactBtn{
+    width: 100vw;
+    max-width: 10rem;
+    margin-bottom: 5rem;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactBtn:hover{
+    filter: drop-shadow(3px 2px 5px rgb(242, 255, 0));
+    border: none;
+    outline: none;
+
+}
+.contactBtnText{
+    padding-left: 3px;
+}
+
+/* .contactBtn{
+    display: flex;
+    margin: 0 auto;
+} */

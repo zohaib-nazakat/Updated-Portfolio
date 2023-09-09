@@ -62,7 +62,12 @@
   height: 6rem;
 }
 
+@media screen and (max-width:450px){
+  #skills{
+    margin: 0 2rem;
 
+  }
+}
 
 
 @media screen and (max-width: 850px){

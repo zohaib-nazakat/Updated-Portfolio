@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import Skills from './Components/Skills/Skills';
 import Aboutme from './Components/About/About';
 import Technology from './Components/Technology/Technology';
+import Contact from './Components/Contact/Contact';
 
 function App() {
 
@@ -14,9 +15,9 @@ function App() {
     <Skills/>
     <Aboutme/>
     <Technology/>
+    <Contact/>
     
    </>
   )
 }
-
 export default App

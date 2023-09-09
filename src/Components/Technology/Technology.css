@@ -79,3 +79,35 @@
 .nodejs{
     height: 5rem;
 }
+
+
+
+@media screen and (max-width:450px){
+    #tools{
+      margin: 0 1rem;
+  
+    }
+  }
+@media screen and (max-width:1200px){
+    .toolChild>h3 {
+        padding-top: 10px;
+        font-size: 0.6rem;
+    }
+    .toolChild{
+        background-color: #1c1c1c5c;
+        width: 100vw;
+        max-width: 8rem;
+        height: 8rem;
+        text-align: center;
+        box-shadow: 0px 0px 6px 0px gray;
+        padding: 1rem;
+        border-radius: 5rem;
+    }
+    .toolChild img {
+        object-fit: cover;
+        height: 4rem;
+    }
+    .tailwind {
+        height: 4rem !important;
+    }
+  }
