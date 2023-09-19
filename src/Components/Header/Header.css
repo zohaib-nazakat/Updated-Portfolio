@@ -74,4 +74,8 @@ Link:visited{
     .navBtn{
         display: block;
     }
+    .logo{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
 }

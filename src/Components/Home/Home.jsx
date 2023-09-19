@@ -3,7 +3,7 @@ import "./Home.css";
 import profile from "../../Images/profile.png";
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import { Link } from "react-scroll";
-import { Face, Facebook, GitHub, LinkedIn, WhatsApp } from "@mui/icons-material";
+import {  Facebook, GitHub, LinkedIn, WhatsApp } from "@mui/icons-material";
 const Home = () => {
   return (
     <>
@@ -17,17 +17,18 @@ const Home = () => {
             </span>
           
           <p className="introPara">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
-            odit, reprehenderit debitis nostrum sint consequatur.
+          Looking for an Opportunity in field of Web Development | React JS | HTML | CSS | JavaScript | Bootstrap 5
           </p>
 
-          <Link to="#"><button className="introBtn"> <p className="hirMeIcon"> <BusinessCenterIcon/> </p> Hire me</button></Link>
+          <Link to="#"><button className="introBtn" onClick={()=>{
+        document.getElementById('contactform').scrollIntoView({behavior:'smooth'});
+      }}> <p className="hirMeIcon"> <BusinessCenterIcon/> </p> Hire me</button></Link>
           
           <span className="socialMediaIcons">
-            <span ><Link to="#" className="mediaIcons"><GitHub/></Link></span>
-            <span ><Link to="#" className="mediaIcons"><LinkedIn/></Link></span>
-            <span ><Link to="#" className="mediaIcons"><Facebook/></Link></span>
-            <span ><Link to="#" className="mediaIcons"><WhatsApp/></Link></span>
+            <span ><a href="https://github.com/zohaib-nazakat" className="mediaIcons" target="_blank"><GitHub/></a></span>
+            <span ><a href="https://www.linkedin.com/in/zohaib-nazakat/" className="mediaIcons" target="_blank"><LinkedIn/></a></span>
+            <span ><a href="/" className="mediaIcons" target="_blank"><Facebook/></a></span>
+            <span ><a href="Https://wa.me/+923412802701" className="mediaIcons" target="_blank"><WhatsApp/></a></span>
           </span>
         </div>
         <img src={profile} alt="" className="bg" />

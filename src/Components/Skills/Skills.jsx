@@ -7,14 +7,14 @@ const Skills = () => {
     <>
         <section id="skills">
             <span className="skillTitle">what I do</span>
-            <span className="skillText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut corrupti dignissimos quibusdam! Repellendus, odio voluptates? Illum velit molestiae, magni assumenda nobis eveniet. Tempore quae quidem at assumenda nobis eius repellendus.</span>
+            <span className="skillText">I can Build & Design Any Type of Landing And Registration Pages Professionally Using MERN Stack Technology </span>
 
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={ui} alt="UI UX" className='uiDesign' />
                     <div className="skillBarText">
                     <h1 className="skillBarLogo">Web Development</h1>
-                    <p className="skillBarPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates!</p>
+                    <p className="skillBarPara">I can Build Websites Professionally</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const Skills = () => {
                     <img src={ui} alt="UI UX" className='uiDesign'  />
                     <div className="skillBarText">
                     <h1 className="skillBarLogo">UI/UX Design</h1>
-                    <p className="skillBarPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates!</p>
+                    <p className="skillBarPara">If You Want to Looks your websites Awesome then don't Worry I got You.</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@ const Skills = () => {
                     <img src={ui} alt="UI UX" className='uiDesign'  />
                     <div className="skillBarText">
                     <h1 className="skillBarLogo">App Design</h1>
-                    <p className="skillBarPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates!</p>
+                    <p className="skillBarPara">Along with websites I can build and Design Mobile Apps</p>
                     </div>
                 </div>
             </div>

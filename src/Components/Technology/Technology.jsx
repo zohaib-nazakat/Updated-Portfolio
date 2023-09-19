@@ -10,7 +10,7 @@ import mongodb from '../../Images/mongodb.png'
 import github from '../../Images/github.png'
 import nodejs from '../../Images/nodejs.png'
 import firebase from '../../Images/firebase.png'
-import { GitHub } from '@mui/icons-material';
+// import { GitHub } from '@mui/icons-material';
 
 
 const Technology = () => {
@@ -19,7 +19,7 @@ const Technology = () => {
         <section id="tools">
 
             <div className="toolTitle"><h1>Technology</h1></div>
-            <div className="toolText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolor! Fugit quod neque incidunt, nulla recusandae laborum maxime similique corrupti?</p></div>
+            <div className="toolText"><p>I have very strong basic in these techlogoies. So, that's why I think I can use them very effectively. Using these Technology I can clone and build any type of Project. I have More than One Year Experience of these Tools</p></div>
             <div className="toolDiv">
                 <div className="toolChild">
                 <h3>HTML</h3>

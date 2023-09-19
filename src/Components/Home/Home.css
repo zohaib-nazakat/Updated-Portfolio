@@ -10,6 +10,9 @@
     margin-right: 2rem;
     cursor: pointer;
 }
+.socialMediaIcons a{
+    color: white;
+}
 .mediaIcons:hover{
 
     color: black;
@@ -166,26 +169,35 @@
     #intro{
         width: 20rem;
         display: flex;
+        margin-top: 0px;
+        background:url('../../Images/profile.png');
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-position-x: -60px; 
     }
+   
 
 .introText{
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 200;
 }
 .introPara{
-    font-size: 1rem;
-    font-weight: 200;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: yellow;
 }
 .introContent{
     margin-left: 3px;
-    margin-top: 2rem;
+    margin-top: 5rem;
     height: 90vh;
 }
 .bg{
-    width: 320px;
-    height: 35rem;
-    left: 1%;
+    width: 300px;
+    height: 33rem;
+    left: 6%;
     opacity: 0.3;
     bottom: 0.5rem;
+    display: none;
 }
+
 } 
