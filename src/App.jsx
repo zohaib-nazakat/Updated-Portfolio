@@ -17,7 +17,6 @@ function App() {
      <Aboutme/>
     <Technology/>
     <Contact/>
-
     <Footer/>  
     
    </>

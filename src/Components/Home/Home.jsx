@@ -1,18 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import profile from "../../Images/profile.png";
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import { Link } from "react-scroll";
 import {  Facebook, GitHub, LinkedIn, WhatsApp } from "@mui/icons-material";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// import Carousel from 'react-bootstrap/Carousel';
+// import ExampleCarouselImage from '../../Images/css.png ';
+
+
+
 const Home = () => {
+  
+    useEffect(()=>{
+      AOS.init({duration:1000})
+    });
+
   return (
     <>
-      <section id="intro">
-        <div className="introContent">
-          <span className="hi">
+      <section id="intro" >
+        <div className="introContent" data-aos="fade-right">
+          <span className="hi" >
             Hello, </span><br />
             <span className="introText">
-              I'm <span className="name">Zohaib</span> <br />
+              I'm <span className="name" data-aos="zoom-in">Zohaib</span> <br />
               <span className="endText">Website Designer</span>
             </span>
           
@@ -33,6 +45,38 @@ const Home = () => {
         </div>
         <img src={profile} alt="" className="bg" />
       </section>
+
+
+
+
+
+{/* <Carousel>
+      <Carousel.Item>
+        <img src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg" style={{height:'100vh', width:'100vw'}} text="First slide" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg" style={{height:'100vh', width:'100vw'}} text="First slide" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg" style={{height:'100vh', width:'100vw'}} text="First slide" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      
+    </Carousel> */}
+
+
+
     </>
   );
 };

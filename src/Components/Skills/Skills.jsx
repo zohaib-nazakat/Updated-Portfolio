@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Skills.css';
-import ui from '../../Images/ui.png'
+import ui from '../../Images/ui.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Skills = () => {
+
+    useEffect(()=>{
+        AOS.init({duration:2000})
+    })
+
+
   return (
     <>
         <section id="skills">
-            <span className="skillTitle">what I do</span>
-            <span className="skillText">I can Build & Design Any Type of Landing And Registration Pages Professionally Using MERN Stack Technology </span>
+            <span className="skillTitle" data-aos="fade-right">what I do</span>
+            <span className="skillText" data-aos="fade-left">I can Build & Design Any Type of Landing And Registration Pages Professionally Using MERN Stack Technology </span>
 
             <div className="skillBars">
-                <div className="skillBar">
+                <div className="skillBar" data-aos="fade-right">
                     <img src={ui} alt="UI UX" className='uiDesign' />
                     <div className="skillBarText">
                     <h1 className="skillBarLogo">Web Development</h1>
@@ -18,7 +27,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div className="skillBars">
+            <div className="skillBars" data-aos="fade-left">
                 <div className="skillBar">
                     <img src={ui} alt="UI UX" className='uiDesign'  />
                     <div className="skillBarText">
@@ -27,7 +36,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div className="skillBars">
+            <div className="skillBars" data-aos="fade-right">
                 <div className="skillBar">
                     <img src={ui} alt="UI UX" className='uiDesign'  />
                     <div className="skillBarText">

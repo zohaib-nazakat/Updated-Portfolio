@@ -2,9 +2,7 @@
     width: 20px ;
     height: 20px;
 }
-.navBtn{
-    display: none;
-}
+
 .navbar{
     background-color: rgb(30, 30, 30);
     height: 5rem;
@@ -66,10 +64,50 @@ Link:visited{
 
 
 
+/* ```````````````````````````````````````````````````````````````` */
+.navBtn{
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
 
-@media screen and (max-width:400px){
+.NavMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: 50vh;
+    width: 83vw;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.listItem{
+    /* margin: 1rem 0.3rem; */
+    cursor: pointer;
+    padding: 10px;
+    
+}
+/* ```````````````````````````````````````````````````````````````` */
+
+
+
+
+@media screen and (max-width:840px){
     .desktopMenu,.deskTopMenuBtn{
         display: none;
+    }
+    .deskTopMenuBtn > .navBtn{
+        background-color: white;
+        color: black;
     }
     .navBtn{
         display: block;
@@ -78,4 +116,5 @@ Link:visited{
         font-size: 1.5rem;
         font-weight: 500;
     }
+    
 }

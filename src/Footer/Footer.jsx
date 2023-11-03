@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <hr />
                 <div className="footerBottom">
-                    <h3><Copyright/> | Front-End Developer</h3>
+                    <h3> &copy; | Front-End Developer</h3>
 
 
                     <ul>

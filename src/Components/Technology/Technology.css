@@ -46,6 +46,12 @@
     box-shadow: 0px 0px 6px 0px gray;
     padding: 1rem;
     border-radius: 5rem;
+    scale: 0.7;
+
+}
+.toolChild:hover{
+    scale: 0.9;
+    
 
 }
 
